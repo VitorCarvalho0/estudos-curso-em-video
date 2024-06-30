@@ -17,8 +17,5 @@
 * Responsividade
   - O básico sobre responsividade.
  
-Veja como ficou o site: 
-https://projeto-android-organizado.vercel.app/
-
-Links importante:
-https://cursoemvideo.com/
+Veja como ficou o site:
+https://site-android-iota.vercel.app/
