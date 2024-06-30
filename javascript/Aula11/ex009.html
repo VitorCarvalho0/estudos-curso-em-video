@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 009</title>
+</head>
+<body>
+    <h1>Qual país você mora</h1>
+
+    <p>Qual país você Nasceu? <input type="text" name="txtpais" id="txtpais"></p>
+    <input type="button" value="verificar" onclick="verificar()">
+    <div id="res"></div>
+
+    <script>
+        
+        function verificar() {
+            var txtp = document.querySelector('input#txtpais')
+            var res = document.querySelector('div#res')
+            var text = String(txtp.value)
+            res.innerHTML = `<p>Morando em ${text}</p>`
+            
+            if (text != 'Brasil') {
+                res.innerHTML += '<p>Você é estranheiro</p>'
+            } else {
+                res.innerHTML += '<p>Você é Brasileiro</p>'
+            }
+        }
+    </script>
+</body>
+</html>

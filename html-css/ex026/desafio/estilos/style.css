@@ -1,0 +1,89 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #815e51;
+}
+
+section {
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.527);
+    width: 80vw;
+    margin: auto;
+    border-radius: 10px;
+
+    transition: width 0.5s, height 0.5s;
+}
+
+#login {
+    display: block;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px ;
+    padding: 10px;
+    background-color: white;
+}
+
+#foto {
+    background-image: url(../img/foto-login.jpg);
+    border-radius: 10px 10px 0px 0px;
+    height: 30vh;
+    margin-top: 50px;
+}
+
+#login p {
+    padding-top: 30px;
+    text-align: justify;
+
+}
+
+.login_dados {
+    margin-top: -20px;
+    display: flex;
+}
+
+form > p > img {
+    background-color: #F2C6A0;
+    border-radius: 10px 0px 0px 10px;
+    padding: 5px;
+}
+
+.login_dados > input {
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
+    width: 94%;
+    background-color: #F2C6A0;
+    border: none;
+}
+
+#login_botoes{
+    margin-top: -20px;
+}
+
+#botao_enter {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #04c253;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+#botao_senha {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    border: 2px solid #04c253;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+
+}

@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 998px) {
+    body {
+        background-image: linear-gradient(to bottom, #5a2714, #F2A679, #f0d1b5 );
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    section {
+        width: 70vw;
+        display: flex;
+        margin-top: 10%;
+    }
+
+    #foto {
+        background-image: url(../img/foto-login.jpg);
+        width: 50vw;
+        height: 50vh;
+        margin-top: 0px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    #login {
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .login_dados > input {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 998px) {
+    body {
+        background-image: linear-gradient(to bottom, #5f1f08, #f78340, #f3b580 );
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    section {
+        width: 50vw;
+        display: flex;
+        margin-top: 10%;
+    }
+
+    #foto {
+        background-image: url(../img/foto-login.jpg);
+        width: 30vw;
+        height: 50vh;
+        margin-top: 0px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    #login {
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .login_dados > input {
+        width: 95%;
+    }
+}
+

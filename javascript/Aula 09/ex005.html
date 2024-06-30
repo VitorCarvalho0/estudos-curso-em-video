@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo DOM</title>
+    <style>
+        body {
+            background-color: rgb(9, 99, 99);
+            color: white;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendendo Dom</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a útilizar <strong>DOM</strong> em JavaScript</p>
+
+    <div>Clique em mim</div> <br>
+
+    <script>
+        var corpo = window.document.body
+        var p = window.document.getElementsByTagName('p')[0]
+        window.document.write('Texto do primeiro paragráfo' + p.innerText)
+        p.style.color = 'blue'
+        corpo.style.background= 'darkred'
+    </script>
+</body>
+</html>
