@@ -1,11 +1,12 @@
 .container {
     background-color: antiquewhite;
     display: flex; /* Usamos o display flex no elemento pai*/
+    flex-direction: column;
 }
 
 .item {
     background-color: cadetblue;
     border: 1px solid black;
     text-align: center;
-    flex: auto; /* Usamos o Flex > auto  para as ciaxas se ajustar automaticamente */
+    padding: 10px;
 }
