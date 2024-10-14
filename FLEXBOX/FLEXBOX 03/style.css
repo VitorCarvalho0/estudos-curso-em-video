@@ -1,0 +1,15 @@
+.container {
+    background-color: antiquewhite;
+    display: flex; /* Usamos o display flex no elemento pai*/
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+    flex-flow: row wrap; /* short hand */
+}
+
+.item {
+    background-color: cadetblue;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    flex: auto; /* Tira o espaço branco do container pai*/
+}
