@@ -1,0 +1,14 @@
+.container {
+    background-color: antiquewhite;
+    display: flex; 
+    flex-flow: row nowrap;
+}
+
+.item {
+    background-color: cadetblue;
+    border: 1px solid black;
+    text-align: center;
+    flex-basis: 250px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}

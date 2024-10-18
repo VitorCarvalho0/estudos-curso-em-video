@@ -1,0 +1,27 @@
+.container {
+    background-color: antiquewhite;
+    display: flex; 
+    flex-flow: row nowrap;
+}
+
+.item {
+    background-color: cadetblue;
+    border: 1px solid black;
+    text-align: center;
+    flex-basis: 200px;
+}
+
+#txt1 {
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+#txt2 {
+    flex-shrink: 2;
+    flex-grow: 2;
+}
+
+#txt3 {
+    flex-shrink: 1;
+    flex-grow: 4;
+}

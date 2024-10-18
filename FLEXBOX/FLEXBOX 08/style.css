@@ -1,0 +1,12 @@
+.container {
+    background-color: antiquewhite;
+    display: flex; 
+    flex-flow: row wrap;
+}
+
+.item {
+    background-color: cadetblue;
+    border: 1px solid black;
+    text-align: center;
+    flex-basis: 200px;
+}
